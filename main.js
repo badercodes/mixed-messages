@@ -5,4 +5,33 @@ const randomString = (arr) => {
 };
 
 // main execution thread
-const first = ["You are lucky\n", "You are fortunate\n", "You are blessed\n"];
+const first = [
+  "\nYou are lucky\n",
+  "\nYou are fortunate\n",
+  "\nYou are blessed\n",
+];
+const second = [
+  "You have many blessings to be thankful for\n",
+  "You are improving your coding skills!\n",
+  "You are making great progress!\n",
+];
+const third = [
+  "Keep at it!",
+  "Don't stop!",
+  "It's a long road but it's worth it!",
+];
+
+// testing random array generator
+// console.log(randomString(first));
+// console.log(randomString(first));
+// console.log(randomString(first));
+// console.log(randomString(first));
+// console.log(randomString(first));
+// console.log(randomString(first));
+// console.log(randomString(first));
+// console.log(randomString(first));
+// console.log(randomString(first));
+// console.log(randomString(first));
+
+let output = randomString(first) + randomString(second) + randomString(third);
+console.log(output);
