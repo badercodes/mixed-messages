@@ -21,17 +21,5 @@ const third = [
   "It's a long road but it's worth it!",
 ];
 
-// testing random array generator
-// console.log(randomString(first));
-// console.log(randomString(first));
-// console.log(randomString(first));
-// console.log(randomString(first));
-// console.log(randomString(first));
-// console.log(randomString(first));
-// console.log(randomString(first));
-// console.log(randomString(first));
-// console.log(randomString(first));
-// console.log(randomString(first));
-
 let output = randomString(first) + randomString(second) + randomString(third);
 console.log(output);
